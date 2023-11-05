@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_640.png);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button{
+    margin: 3px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+.start:hover{
+    background-color: green;
+    color: white;
+    transition: .5s;
+}
+.start:active{
+    background-color: rgb(38, 225, 9);
+    transition: .5s;
+}
+.stop:hover{
+    background-color: red;
+    color: white;
+    transition: .5s;
+}
+.stop:active{
+    background-color: rgb(178, 22, 22);
+    transition: .5s;
+}
